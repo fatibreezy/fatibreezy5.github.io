@@ -1,0 +1,79 @@
+
+main , body{
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Open Sans', sans-serif;
+    font-weight:  400, 700;
+    
+}
+
+body , a {
+    color: hsl(0, 0%, 100%);
+}
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+}
+
+
+.testimonials {
+    background-color: hsl(219, 30%, 18%);
+}
+
+.signup {
+        background-color: hsl(217, 28% ,15%);
+}
+
+
+.navigation1 {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.navigation2 {
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+a :hover {
+    color: hsl(176, 68% , 64%);
+    font-family: 'Raleway' , sans-serif;
+    text-decoration: none;
+    transition: 600ms; 
+}
+
+
+
+
+header {
+    display: flex;
+    padding: 3.5rem 3rem ;
+    justify-content: space-between;
+}
+
+
+.featuresoffylo, .secure , .signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+
+
+
